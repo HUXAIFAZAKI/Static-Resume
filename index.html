@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
       <center><h1 class="header-text">STATIC RESUME</h1></center>
+      <div class="btn-container">
+        <button class="btn btn-hobbies">Show/Hide Hobbies</button>
+        <button class="btn btn-languages">Show/Hide Languages</button>
+      </div>
     </header>
     <main>
       <section class="right-section">
@@ -26,7 +31,7 @@
             <a href="/">example@mail.com</a>
           </p>
         </div>
-        <div class="languages-container">
+        <div class="languages-container" style="display: block">
           <h2>Languages</h2>
           <p>English, Urdu, Punjabi</p>
         </div>
@@ -63,7 +68,7 @@
           </ul>
         </div>
 
-        <div class="hobbies-container">
+        <div class="hobbies-container" style="display: block">
           <h2>Hobbies</h2>
           <ul>
             <li>Reading</li>

@@ -30,6 +30,17 @@ body {
   word-spacing: 5px;
   margin: 10px;
 }
+.btn-container {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
 
 main {
   border-top: 10px solid #000;
